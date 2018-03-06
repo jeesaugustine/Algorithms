@@ -1,7 +1,28 @@
+#!/usr/bin/env python
+
+"""
+    This program simulates a two stack using a list of size n
+    if the program was to do stack of total size of 'n-1' it was piece of cake but in this case in
+    the edge condition there needs to be more careful design.
+    There are two stacks accessed by push1 and push1 and pop1 and pop2
+    They can store an maximum of 'n' elements in total at a given time and will give you no error but should work just
+    fine
+"""
+
+
+__author__ = "Jees Augustine"
+__copyright__ = "Copyright 2018,"
+__credits__ = ["Jees Augustine"]
+__license__ = "GPL"
+__version__ = "1.0.0"
+__maintainer__ = "Jees Augustine"
+__email__ = "jees.augustine@mavs.uta.edu"
+__status__ = "Learning"
+
 
 class TwoStacks:
     def __init__(self, length):
-        self.stack = [0 ] *length
+        self.stack = [0] * length
         self.top1 = -1
         self.top2 = length
         self.empty1 = True
