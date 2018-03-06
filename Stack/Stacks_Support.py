@@ -7,6 +7,10 @@
     There are two stacks accessed by push1 and push1 and pop1 and pop2
     They can store an maximum of 'n' elements in total at a given time and will give you no error but should work just
     fine
+
+    This problem was inspired from an exercise of CLRS 'https://en.wikipedia.org/wiki/Introduction_to_Algorithms'
+        Assignment #: 10.1-2
+
 """
 
 
